@@ -1,151 +1,235 @@
-
-header{
-   
+header {
     background-position: center;
     width: 1320px;
     height: 600px;
     border-radius: 16px;
-    background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../resources/Banner\ Image.png');
+    background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+        url("../resources/Banner\ Image.png");
     margin-left: auto;
     margin-right: auto;
 }
-.part1{
-    
-}
-.header-greeting{
-color: #FFF;
-text-align: center;
-font-size: 32px;
-font-weight: 400;
-margin-bottom: 10px;
-padding: 100px 531px 0px 530px;
 
+.header-greeting {
+    color: #fff;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    padding: 100px 531px 0px 530px;
 }
-.welcome-text{
-color: #FFF;
-text-align: center;
-font-size: 72px;
-font-weight: 900;
-padding:0px 344px;
-}
-.discount{
-color: #F00;
-text-align: center;
-font-family: Inter;
-font-size: 88px;
-font-weight: 700;
 
+.welcome-text {
+    color: #fff;
+    text-align: center;
+    font-size: 72px;
+    font-weight: 900;
+    padding: 0px 344px;
 }
-.offer-text{
-color: #F00;
-text-align: center;
-font-family: Inter;
-font-size: 24px;
-font-weight: 500;
+
+.discount {
+    color: #f00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 88px;
+    font-weight: 700;
 }
-#sub-title{
+
+.offer-text {
+    color: #f00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+#sub-title {
     color: #070211;
     text-align: center;
     font-family: Inter;
     font-size: 48px;
     font-weight: 700;
-   
 }
-.new-year-img{
+
+.new-year-img {
     width: 800px;
     height: 500px;
     display: block;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 0px 250px 120px 250px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px 250px 120px 250px;
 }
-.welcome{
-    
-    background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 70%) , url('../resources/Vectorrr.png');
+
+.welcome {
+    background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 70%),
+        url("../resources/Vectorrr.png");
     background-repeat: no-repeat;
     width: 1320px;
     height: 600px;
     margin-left: auto;
     margin-right: auto;
 }
-.group70{
-display: flex;
-width: 319.83px;
-height: 464.662px;
 
-flex-direction: column;
-justify-content: right;
-align-items: center;
+.group70 {
+    display: flex;
+    width: 319.83px;
+    height: 464.662px;
 
+    flex-direction: column;
+    justify-content: right;
+    align-items: center;
 }
-    
-.title2{
-    color: #FFF;
+
+.title2 {
+    color: #fff;
     font-family: Merriweather;
     font-size: 64px;
     font-style: normal;
     font-weight: 900;
     padding: 100px 550px 0px 126px;
-
 }
 
-.welcome-party-text{
+.welcome-party-text {
     width: 697px;
-    color: rgba(255, 255, 255, 0.80);
+    color: rgba(255, 255, 255, 0.8);
     font-family: Inter;
     font-size: 18px;
     font-weight: 400;
     margin-left: 126px;
     margin-top: 24px;
-  
-    }
-    .btn1{
-color: #FFF;
-background-color: #070211;
-text-align: center;
-border: none;
-font-size: 20px;
-font-style: normal;
+}
+
+.btn1 {
+    color: #fff;
+    background-color: #070211;
+    text-align: center;
+    border: none;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-left: 158px;
+    margin-top: 45px;
+}
+
+.place-date {
+    background: linear-gradient(180deg,
+            rgba(255, 0, 0, 0.1) 0%,
+            rgba(255, 0, 0, 0) 100%);
+    margin-left: auto;
+    margin-right: auto;
+    width: 1320px;
+    height: 482px;
+    margin-top: 120px;
+}
+
+.text-primary,
+.place-date {
+    color: #f00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.place-date {
+    color: #070211;
+}
+
+.info-content {
+    padding: 126px 385px 214px 385px;
+}
+
+.btn2 {
+    border-radius: 8px;
+    background: #f00;
+    border: none;
+    display: inline-flex;
+    padding: 16px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 48px;
+}
+
+.bonus {
+    display: flex;
+    justify-content: space-between;
+    width: 1320px;
+height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 180px;
+   /* padding: 0px 118px 0px 80px;*/
+}
+
+.design1 {
+    color: #f00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+.design1-1{
+    color: #F00;
+font-family: Inter;
+font-size: 48px;
 font-weight: 700;
-text-transform: uppercase;
-cursor: pointer;
-margin-left: 158px;
-margin-top: 45px;
-    }
-    .place-date{
-      background:  linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%); 
-      margin-left: auto;
-      margin-right: auto;
-      width: 1320px;
-      height: 482px;
-      margin-top: 120px;
-    }
-    .text-primary, .place-date{
-        color: #F00;
-        text-align: center;
-        font-family: Inter;
-        font-size: 32px;
-        font-style: normal;
-        font-weight: 600;
-        
-    }
-    .place-date{
-        color:#070211; ;
-    }
-    .info-content{
-        padding: 126px 385px 214px 385px;
-    }
-    .btn2{
-        border-radius: 8px;
-        background: #F00;
-        border: none;
-        display: inline-flex;
-        padding: 16px 32px;
-        justify-content: center;
-        align-items: center;
-        gap: 10px;
-        color: #FFF;
-        font-size: 20px;
-        font-weight: 700;
-        margin-top: 48px;
-    }
+
+}
+
+#design2 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    margin-top: 0px;
+    margin-bottom: 29px;
+}
+
+.design3 {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    width: 355px;
+    margin-top: 0px;
+    
+}
+#ellipse{
+    width: 364.844px;
+height: 364.844px;
+border-radius: 364.844px;
+padding: 49px;
+border-radius: 463px;
+border: 15px solid #F00;
+}
+.p{
+    padding-right: 80px;
+}
+#p-2024{
+    padding-left: 118px;
+    margin-bottom: 16px;
+}
+#hny{
+   margin-top: 45px;
+   margin-right: 105px;
+
+}
+#function{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  padding-top: 0px;
+}
+#des1{
+color: #070211;
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+
+}
