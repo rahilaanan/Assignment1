@@ -176,9 +176,14 @@ header {
     margin-right: auto;
     margin-top: 180px;
 
-    /* padding: 0px 118px 0px 80px;*/
 }
-#bonus1{
+
+#bonus0 {
+
+    height: 420px;
+}
+
+#bonus1 {
     height: 200px;
 }
 
@@ -282,9 +287,9 @@ header {
 }
 
 .two-images {
-   background-image: url(../resources/Rectangle\ 2.png);
-   background-repeat: no-repeat;
-   background-position: bottom;
+    background-image: url(../resources/Rectangle\ 2.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
 }
 
 #woman {
@@ -293,23 +298,25 @@ header {
     border-radius: 16px 16px 0px 0px;
     padding-left: 164px;
     margin-top: -62px;
-   
+
 
 }
 
 
 .many-pictures {
-    width: 1500px;
+    width: 1350px;
     height: 1150px;
     margin-left: auto;
-    margin-right: 80px;
-     margin-top: 120px;
-     padding-right: 35px;
+    margin-right: auto;
+    margin-top: 120px;
+   
 }
-.img-section1{
+
+.img-section1 {
     padding-bottom: 24px;
 }
-.img-padding{
+
+.img-padding {
     padding-left: 24px;
 }
 
@@ -325,134 +332,155 @@ header {
     width: 896px;
     margin-top: 22px;
 }
-.subscribe-section{
+
+.subscribe-section {
     margin-top: 126px;
     width: 1320px;
-height: 650px;
+    height: 650px;
+    margin-left: auto;
+    margin-right: auto;
     border-radius: 16px;
-background: rgba(255, 0, 0, 0.05);
-margin-bottom: 120px;
+    background: rgba(255, 0, 0, 0.05);
+    margin-bottom: 120px;
 
 }
-#Ss{
+
+#Ss {
     margin-right: auto;
     padding-left: auto;
 }
-#mail-img{
+
+#mail-img {
     padding-top: 80px;
     padding-bottom: 40px;
 }
-#des4{
+
+#des4 {
     margin-left: auto;
     margin-right: auto;
     width: 896px;
     margin-top: 22px;
     padding-bottom: 48px;
 }
-.buttonIn{
+
+.buttonIn {
     display: inline-block;
 }
-#input-style{
+
+#input-style {
     width: 648px;
-height: 72px;
-border-radius: 50px;
-background: #FFF;
-border: none;
+    height: 72px;
+    border-radius: 50px;
+    background: #FFF;
+    border: none;
 
 }
-::placeholder{
+
+::placeholder {
     color: rgba(7, 2, 17, 0.30);
-font-family: Inter;
-font-size: 18px;
-font-weight: 400;
-padding-left: 30px;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    padding-left: 30px;
 
 }
 
-#subscribe{
+#subscribe {
     width: 210px;
-height: 72px;
-border-radius: 0px 50px 50px 0px;
-background: #F00;
-border: none;
-color: #FFF;
-font-family: Inter;
-font-size: 20px;
-font-weight: 600;
-cursor: pointer;
-margin-left: -210px;
+    height: 72px;
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    border: none;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-left: -210px;
 
 }
-footer{
+
+footer {
     display: flex;
     gap: 100px;
     width: 100%;
     height: 609px;
     background: #070211;
-   
-    
-}
-.text-color{
-    color: #FFF;
-font-family: Inter;
-font-size: 24px;
-font-weight: 500;
-padding-top: 120px;
-padding-left: 130px;
-width: 375px;
-height: 80px;
 }
 
-.text-color1{
-    color: #FFF;
-font-family: Inter;
-font-size: 24px;
-font-weight: 500;
-padding-top:210px;
-padding-left: 500px;
-
-}
-.mini{
-    display: inline;
-    
-
-}
-.icons{
+.container {
     display: flex;
-    width: 64px;
-    height: 64px;
-    padding-top: 300px;
-    
-    margin: 0px;
+    margin-left: auto;
+    margin-right: auto;
 }
-.img-space{
-    padding: 0px 14px;
-}
-.text-color2{
-    color: #FFF;
-font-family: Inter;
-font-size: 24px;
-font-weight: 500;
-padding-top:120px;
-padding-left: 230px;
-margin-right: 275px;
-width: 250px;
 
-}
-.text-color3{
+.text-color {
     color: #FFF;
     font-family: Inter;
     font-size: 24px;
     font-weight: 500;
-    padding-top:0px;
-    padding-left: 230px;
-    margin-right: 275px;
-    
+    padding-top: 120px;
+    padding-left: 130px;
+    width: 375px;
+    height: 80px;
 }
-#text4{
+
+.text-color1 {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    padding-top: 210px;
+    padding-left: 500px;
+    margin-right: 275px
+}
+
+.mini {
+    display: inline;
+
+
+}
+
+.icons {
+    display: flex;
+    width: 64px;
+    height: 64px;
+    padding-top: 300px;
+
+    margin: 0px;
+}
+
+.img-space {
+    padding: 0px 14px;
+}
+
+.number-web {
+    padding-top: 120px;
+    padding-left: 430px;
+    margin-right: 275px
+}
+
+.text-color2 {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+
+}
+
+.text-color3 {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+
+}
+
+#text4 {
     padding-left: 130px;
     width: 300px;
 }
-#Unsubscribe{
-    padding-left: 350px;
+
+#Unsubscribe {
+    padding-left: 650px;
 }
