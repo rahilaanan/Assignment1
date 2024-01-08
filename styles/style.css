@@ -455,7 +455,7 @@ footer {
     width: 64px;
     height: 64px;
     padding-top: 300px;
-
+    justify-content: center;
     margin: 0px;
 }
 
