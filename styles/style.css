@@ -5,8 +5,7 @@ header{
     width: 1320px;
     height: 600px;
     border-radius: 16px;
-    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
-    background-image: url('../resources/Banner\ Image.png');
+    background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../resources/Banner\ Image.png');
     margin-left: auto;
     margin-right: auto;
 }
@@ -19,7 +18,7 @@ text-align: center;
 font-size: 32px;
 font-weight: 400;
 margin-bottom: 10px;
-padding: 170px 531px 0px 530px;
+padding: 100px 531px 0px 530px;
 
 }
 .welcome-text{
@@ -62,7 +61,7 @@ font-weight: 500;
 }
 .welcome{
     
-    background-image: url('../resources/Vectorrr.png');
+    background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 70%) , url('../resources/Vectorrr.png');
     background-repeat: no-repeat;
     width: 1320px;
     height: 600px;
@@ -70,16 +69,23 @@ font-weight: 500;
     margin-right: auto;
 }
 .group70{
-    
+display: flex;
+width: 319.83px;
+height: 464.662px;
+
+flex-direction: column;
+justify-content: right;
+align-items: center;
+
 }
     
 .title2{
-width: 642px;
-color: #FFF;
-font-family: Merriweather;
-font-size: 64px;
-font-weight: 900;
-padding: 100px 550px 0px 126px;
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 900;
+    padding: 100px 550px 0px 126px;
 
 }
 
@@ -89,5 +95,57 @@ padding: 100px 550px 0px 126px;
     font-family: Inter;
     font-size: 18px;
     font-weight: 400;
+    margin-left: 126px;
+    margin-top: 24px;
   
+    }
+    .btn1{
+color: #FFF;
+background-color: #070211;
+text-align: center;
+border: none;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+text-transform: uppercase;
+cursor: pointer;
+margin-left: 158px;
+margin-top: 45px;
+    }
+    .place-date{
+      background:  linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%); 
+      margin-left: auto;
+      margin-right: auto;
+      width: 1320px;
+      height: 482px;
+      margin-top: 120px;
+    }
+    .text-primary, .place-date{
+        color: #F00;
+        text-align: center;
+        font-family: Inter;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 600;
+        
+    }
+    .place-date{
+        color:#070211; ;
+    }
+    .info-content{
+        padding: 126px 385px 214px 385px;
+    }
+    .btn2{
+        border-radius: 8px;
+        background: #F00;
+        border: none;
+        display: inline-flex;
+        padding: 16px 32px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        color: #FFF;
+        font-size: 20px;
+        font-weight: 700;
+        margin-top: 48px;
     }
