@@ -292,6 +292,8 @@ header {
     background-image: url(../resources/Rectangle\ 2.png);
     background-repeat: no-repeat;
     background-position: bottom;
+    padding-top: 0px;
+   
     
 
 }
@@ -300,6 +302,7 @@ header {
     width: 300px;
     height: 300px;
     padding-top: 150px;
+    margin-top: -78px;
     padding-right: 300px;
     background-image: url(../resources/Rectangle\ 1.png);
     background-repeat: no-repeat;
@@ -447,7 +450,6 @@ footer {
 .mini {
     display: inline;
 
-
 }
 
 .icons {
@@ -474,6 +476,7 @@ footer {
     font-family: Inter;
     font-size: 24px;
     font-weight: 500;
+    width: 300px;
 
 }
 
@@ -491,5 +494,7 @@ footer {
 }
 
 #Unsubscribe {
+  
     padding-left: 300px;
+
 }
