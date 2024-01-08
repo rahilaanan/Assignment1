@@ -178,6 +178,9 @@ header {
 
     /* padding: 0px 118px 0px 80px;*/
 }
+#bonus1{
+    height: 200px;
+}
 
 .design1 {
     color: #f00;
@@ -279,8 +282,9 @@ header {
 }
 
 .two-images {
-    margin-top: 64px;
-
+   background-image: url(../resources/Rectangle\ 2.png);
+   background-repeat: no-repeat;
+   background-position: bottom;
 }
 
 #woman {
@@ -288,25 +292,27 @@ header {
     height: 433px;
     border-radius: 16px 16px 0px 0px;
     padding-left: 164px;
-}
-
-#red-line {
-    width: 1320px;
-    height: 229px;
+    margin-top: -62px;
+   
 
 }
+
 
 .many-pictures {
-    width: 1320px;
-    height: 7335px;
+    width: 1500px;
+    height: 1150px;
     margin-left: auto;
-    margin-right: auto;
-    margin-top: 120px;
+    margin-right: 80px;
+     margin-top: 120px;
+     padding-right: 35px;
+}
+.img-section1{
+    padding-bottom: 24px;
+}
+.img-padding{
+    padding-left: 24px;
 }
 
-.function2 {
-
-}
 
 #h4-new {
     color: #F00;
@@ -325,6 +331,12 @@ header {
 height: 650px;
     border-radius: 16px;
 background: rgba(255, 0, 0, 0.05);
+margin-bottom: 120px;
+
+}
+#Ss{
+    margin-right: auto;
+    padding-left: auto;
 }
 #mail-img{
     padding-top: 80px;
@@ -336,6 +348,9 @@ background: rgba(255, 0, 0, 0.05);
     width: 896px;
     margin-top: 22px;
     padding-bottom: 48px;
+}
+.buttonIn{
+    display: inline-block;
 }
 #input-style{
     width: 648px;
@@ -365,6 +380,7 @@ font-family: Inter;
 font-size: 20px;
 font-weight: 600;
 cursor: pointer;
+margin-left: -210px;
 
 }
 footer{
@@ -406,8 +422,11 @@ padding-left: 500px;
     width: 64px;
     height: 64px;
     padding-top: 300px;
-    padding-left: 80px;
+    
     margin: 0px;
+}
+.img-space{
+    padding: 0px 14px;
 }
 .text-color2{
     color: #FFF;
@@ -415,7 +434,7 @@ font-family: Inter;
 font-size: 24px;
 font-weight: 500;
 padding-top:120px;
-padding-left: 170px;
+padding-left: 230px;
 margin-right: 275px;
 width: 250px;
 
@@ -426,7 +445,7 @@ width: 250px;
     font-size: 24px;
     font-weight: 500;
     padding-top:0px;
-    padding-left: 170px;
+    padding-left: 230px;
     margin-right: 275px;
     
 }
